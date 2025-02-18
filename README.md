@@ -12,20 +12,26 @@ Client : PowerCo
 The Energy Market has experienced a lot change  in recent years and there are more options than ever  for customers to choose from. A major gas and electricity suplier called powerCO  that supplies gas and electricity utility to small and medium sized entreprizes is concerned about their customers leaving for better offers from other energy providers. This business scenario has become a big issue for powerCO . They then reached out to  BCG X to help them diagnose the reason why their custormers are churning.
 
 2)	Problem
+
  After we the data scientist team investigated the  business situation we believed that the main concern   of our client is that ;PowerCO is experiencing churning and wants to know what  are the key  reasons behind ?
 
-3)	Hypothesis and data 
+4)	Hypothesis and data
+
  As a data scientist team   after  looking at the business  probem  through the lense of a data scientist we came to an hypothesis  like Customer churning may be caused by  customer’s price sensitivity and many other related factors
 
 In order to test whether churn is driven by customer’s price sensitivity we modeled churn probabilities of customers.
 In order to build our model  the Data scientist team required the following data  from PowerCO.
+
 a)Customer  historical data  which includes characteristics of each client, for example industry, historical electricity and gas consumption, date joined as customer etc …
+
 b)churn data which should indicate if a customer has churned
+
 c) historical price data which includes the price the company charges for both electricity  and gas at granualr  time intervals.
 
 
 
 4)	Our findings
+	
 After careful  Exploration of the data we found some insigths that we believe  may be of  interest for  PowerCO stakeholders
 
 
@@ -79,9 +85,11 @@ Note on metrics importance : After evaluating our metrics we  found that the met
 
 
 Model summary
+
 Within  the data  as we saw earlier 10% of companies churned . Out of 3286 non churning companies  our model accurately predicted 3282. Within the churning companies our model accurately predicted 18 out 366 churning companies . This means that  our model is much better  at predicting non churning companies  than it can predict churning ones.
 
 Recommendations
+
 PowerCO  stakeholders should then focus more  on  client  RETENTION rather than on client churn because of   the  predictive power of our model regarding client retention rates.
 
 
